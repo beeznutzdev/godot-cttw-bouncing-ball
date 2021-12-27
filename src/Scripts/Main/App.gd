@@ -7,8 +7,7 @@ extends Node
 
 
 onready var Ball: Node2D = $Ball
-onready var Updater: Timer = $Updater
-	
+
 	
 func _ready() -> void:
 	initialize_window()
